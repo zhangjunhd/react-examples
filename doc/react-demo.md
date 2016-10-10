@@ -1,6 +1,8 @@
 ## React demos
 参考[React 入门实例教程][0]
 
+![react](http://image.beekka.com/blog/2015/bg2015033101.png)
+
 ###一、HTML 模板
 
     <!DOCTYPE html>
