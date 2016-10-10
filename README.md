@@ -1,9 +1,16 @@
 # react-examples
-## 搭建开发环境
+
+1. React入门示例库
+2. React-Native搭建开发环境
+
+## React入门示例库
+[文档][4]，参考[阮一峰React入门实例教程][3]。
+
+## React-Native搭建开发环境
 - 开发平台：MAC
 - 目标平台：IOS
 
-## 必须的软件
+### 必须的软件
 -  Homebrew
 -  Node
 - React Native的命令行工具（react-native-cli）
@@ -13,7 +20,7 @@
 		brew install node
 		npm install -g react-native-cli
 
-##  推荐安装的工具
+###  推荐安装的工具
 -  Watchman:由Facebook提供的监视文件系统变更的工具。安装此工具可以提高开发时的性能（packager可以快速捕捉文件的变化从而实现实时刷新）。
 -  Flow:一个静态的JS类型检查工具。
 -  Nuclide:由Facebook提供的基于atom的集成开发环境，可用于编写、运行和 调试React Native应用。[Nuclide入门文档][1]
@@ -22,7 +29,7 @@
 		brew install watchman
 		brew install flow
 
-## 测试安装
+### 测试安装
 	zhangjundeMacBook-Pro:Documents zhangjun$ react-native init AwesomeProject
 	This will walk you through creating a new React Native project in /Users/zhangjun/Documents/AwesomeProject
 	Installing react-native package from npm...
@@ -44,10 +51,6 @@
 
 
 也可以在Nuclide中打开AwesomeProject文件夹 然后[运行][2]，或是双击ios/AwesomeProject.xcodeproj文件然后在Xcode中点击Run按钮。
-
-## React demos例子
-- [阮一峰React入门实例教程][3]
-- [文档][4]
 
 [1]: https://nuclide.io/docs/quick-start/getting-started/
 [2]: https://nuclide.io/docs/platforms/react-native/#command-line
