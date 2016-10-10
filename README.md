@@ -17,6 +17,7 @@
 -  Watchman:由Facebook提供的监视文件系统变更的工具。安装此工具可以提高开发时的性能（packager可以快速捕捉文件的变化从而实现实时刷新）。
 -  Flow:一个静态的JS类型检查工具。
 -  Nuclide:由Facebook提供的基于atom的集成开发环境，可用于编写、运行和 调试React Native应用。[Nuclide入门文档][1]
+-  我们更推荐使用WebStorm或Sublime Text来编写React Native应用。
 
 		brew install watchman
 		brew install flow
@@ -44,6 +45,11 @@
 
 也可以在Nuclide中打开AwesomeProject文件夹 然后[运行][2]，或是双击ios/AwesomeProject.xcodeproj文件然后在Xcode中点击Run按钮。
 
+## React demos例子
+- [阮一峰React入门实例教程][3]
+- [文档][4]
 
 [1]: https://nuclide.io/docs/quick-start/getting-started/
 [2]: https://nuclide.io/docs/platforms/react-native/#command-line
+[3]: http://www.ruanyifeng.com/blog/2015/03/react.html
+[4]: doc/react-demo.md
