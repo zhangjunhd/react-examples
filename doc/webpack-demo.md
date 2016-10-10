@@ -74,6 +74,21 @@ First, install [Webpack](https://www.npmjs.com/package/webpack) and [webpack-dev
  $ npm i -g webpack webpack-dev-server
  ```
  
+Problem:
+
+    zhangjundeMacBook-Pro:webpack-demo zhangjun$ npm install
+    npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+    (node:72145) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit
+    (node:72145) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit
+    (node:72145) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit
+    npm WARN deprecated css-list@0.1.3: Deprecated.
+ 
+Fix:
+
+    zhangjundeMacBook-Pro:demo01 zhangjun$ npm update -g minimatch@3.0.2
+    zhangjundeMacBook-Pro:demo01 zhangjun$ npm update -g css-list@0.1.3
+    zhangjundeMacBook-Pro:demo01 zhangjun$ npm install
+ 
 Then, clone the repo and install the dependencies.
  
  ```bash
