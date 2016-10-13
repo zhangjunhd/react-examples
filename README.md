@@ -8,6 +8,7 @@
 1. [CSS Modules 用法教程][6]
 1. [React Router 使用教程][7]
 1. [Flux 架构][8]
+1. [Redux 入门教程][9]
 1. [React-Native搭建开发环境][10]
 
 
@@ -22,4 +23,5 @@
 [6]: doc/css-modules-demo.md
 [7]: http://www.ruanyifeng.com/blog/2016/05/react_router.html
 [8]: doc/flux-demo.md
+[9]: doc/redux-demo.md
 [10]: doc/react-native-install.md
