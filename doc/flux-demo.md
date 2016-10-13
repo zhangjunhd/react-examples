@@ -11,8 +11,15 @@ Flux存在多种实现（[至少15种][3]），本文采用的是[Facebook官方
 ## 二、安装 Demo
 
     $ git clone https://github.com/zhangjunhd/react-examples.git
-    $ cd flux-demo && npm install
+    $ cd flux-todomvc && npm install
     $ npm start
+    $ 在浏览器中打开index.html
+
+另外一个较复杂的例子
+
+    $ cd flux-chat && npm install
+    $ npm start
+    $ 在浏览器中打开index.html
 
 ## 三、基本概念
 Flux将一个应用分成四个部分:
@@ -211,6 +218,7 @@ var TodoApp = React.createClass({
 - [Flux 架构入门教程][21]
 - [Flux][22]
 - [Flux TodoMVC Example][23]
+- [Flux Chat Example][24]
 
 [1]: https://facebook.github.io/flux/
 [2]: http://www.infoq.com/news/2014/05/facebook-mvc-flux
@@ -226,3 +234,4 @@ var TodoApp = React.createClass({
 [21]: http://www.ruanyifeng.com/blog/2016/01/flux.html
 [22]: https://hulufei.gitbooks.io/react-tutorial/content/flux.html
 [23]: ../flux-todomvc/README.md
+[24]: ../flux-chat/README.md

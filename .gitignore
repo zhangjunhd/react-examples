@@ -2,3 +2,4 @@
 .idea/
 webpack-demo/node_modules/
 flux-todomvc/node_modules/
+flux-chat/node_modules/
