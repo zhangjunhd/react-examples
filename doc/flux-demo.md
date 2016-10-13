@@ -13,13 +13,13 @@ Flux存在多种实现（[至少15种][3]），本文采用的是[Facebook官方
     $ git clone https://github.com/zhangjunhd/react-examples.git
     $ cd flux-todomvc && npm install
     $ npm start
-    $ 在浏览器中打开index.html
+    $ open index.html
 
 另外一个较复杂的例子
 
     $ cd flux-chat && npm install
     $ npm start
-    $ 在浏览器中打开index.html
+    $ open index.html
 
 ## 三、基本概念
 Flux将一个应用分成四个部分:
