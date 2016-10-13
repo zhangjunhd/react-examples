@@ -342,7 +342,7 @@ export default connect(mapStateToProps, mapDispatchProps)(App);
 如前所述，这个 connected 的组件必须放到 <Provider> 的容器里面，当 State 更改的时候就会自动调用 mapStateToProps 和 mapDispatchProps 从而更新组件的 props。 组件内部也可以通过 props 调用到 action，如果没有省略了 mapDispatchProps，组件要触发 action 就必须手动 dispatch，类似这样：this.props.dispatch(someActionCreator('arg'))。
 
 ## 例子
-所有的例子在[目录redux-demo][10]，说明文件[Examples.md][11]。
+所有的例子在[目录redux-demo][10]，说明文件[README.md][11]。
 
 ## 参考资料
 
@@ -359,7 +359,7 @@ export default connect(mapStateToProps, mapDispatchProps)(App);
 [8]: http://rackt.github.io/redux/docs/api/bindActionCreators.html
 [9]: https://github.com/rackt/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options
 [10]: ../redux-demo/
-[11]: ../redux-demo/Examples.md
+[11]: ../redux-demo/README.md
 
 [20]: http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
 [21]: https://hulufei.gitbooks.io/react-tutorial/content/redux.html
