@@ -225,7 +225,7 @@ App.css编译成下面的代码。
 }
 ```
 
-相应地， h1的class也会编译成<h1 class="_2DHwuiHWMnKTOYG45T0x34 _10B-buq6_BEOTOl9urIjf8">。
+相应地， h1的class也会编译成`<h1 class="_2DHwuiHWMnKTOYG45T0x34 _10B-buq6_BEOTOl9urIjf8">`。
 
 ###五、输入其他模块
 选择器也可以继承其他CSS文件里面的规则。

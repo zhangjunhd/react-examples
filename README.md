@@ -6,6 +6,7 @@
 1. [Flex 布局教程：语法篇][4]
 1. [Flex 布局教程：实例篇][5]
 1. [CSS Modules 用法教程][6]
+1. [React Router 使用教程][7]
 1. [React-Native搭建开发环境][10]
 
 
@@ -18,4 +19,5 @@
 [4]: http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
 [5]: http://www.ruanyifeng.com/blog/2015/07/flex-examples.html
 [6]: doc/css-modules-demo.md
+[7]: http://www.ruanyifeng.com/blog/2016/05/react_router.html
 [10]: doc/react-native-install.md
