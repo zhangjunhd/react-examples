@@ -210,6 +210,7 @@ var TodoApp = React.createClass({
 ## 参考资料
 - [Flux 架构入门教程][21]
 - [Flux][22]
+- [Flux TodoMVC Example][23]
 
 [1]: https://facebook.github.io/flux/
 [2]: http://www.infoq.com/news/2014/05/facebook-mvc-flux
@@ -224,3 +225,4 @@ var TodoApp = React.createClass({
 
 [21]: http://www.ruanyifeng.com/blog/2016/01/flux.html
 [22]: https://hulufei.gitbooks.io/react-tutorial/content/flux.html
+[23]: ../flux-todomvc/README.md
