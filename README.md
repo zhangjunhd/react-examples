@@ -1,5 +1,6 @@
 # react-examples
 
+1. [npm scripts 使用指南][0]
 1. [Babel入门教程][1]
 1. [React入门示例库][2]
 1. [Webpack入门示例库][3]
@@ -15,6 +16,7 @@
 ## React 技术栈
 ![react-stack](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016092301.png)
 
+[0]: http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html
 [1]: doc/babel-guide.md
 [2]: doc/react-demo.md
 [3]: doc/webpack-demo.md
