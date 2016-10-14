@@ -7,6 +7,7 @@
 1. [Flex 布局教程：语法篇][4]
 1. [Flex 布局教程：实例篇][5]
 1. [CSS Modules 用法教程][6]
+1. [SASS用法指南][11]
 1. [React Router 使用教程][7]
 1. [Flux 架构][8]
 1. [Redux 入门教程][9]
@@ -27,3 +28,4 @@
 [8]: doc/flux-demo.md
 [9]: doc/redux-demo.md
 [10]: doc/react-native-install.md
+[11]: http://www.ruanyifeng.com/blog/2012/06/sass.html

@@ -1,5 +1,5 @@
-##Webpack入门示例库
-###一个常见的Webpack配置文件
+## Webpack入门示例库
+### 一个常见的Webpack配置文件
 ```javascript
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -44,21 +44,21 @@ module.exports = {
 }
 ```
 
-###什么是WebPack，为什么要使用它？
-####为什要使用WebPack
+### 什么是WebPack，为什么要使用它？
+#### 为什要使用WebPack
 现今的很多网页其实可以看做是功能丰富的应用，它们拥有着复杂的JavaScript代码和一大堆依赖包。为了简化开发的复杂度，前端社区涌现出了很多好的实践方法
 
 - 模块化，让我们可以把复杂的程序细化为小的文件;
 - 类似于TypeScript这种在JavaScript基础上拓展的开发语言：使我们能够实现目前版本的JavaScript不能直接使用的特性，并且之后还能能装换为JavaScript文件使浏览器可以识别；
 - Scss，less等CSS预处理器
 - ...
-   
+
 这些改进确实大大的提高了我们的开发效率，但是利用它们开发的文件往往需要进行额外的处理才能让浏览器识别,而手动处理又是非常反锁的，这就为WebPack类的工具的出现提供了需求。
 
-####什么是Webpack
+#### 什么是Webpack
 WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其打包为合适的格式以供浏览器使用。
 
-####WebPack和Grunt以及Gulp相比有什么特性
+#### WebPack和Grunt以及Gulp相比有什么特性
 其实Webpack和另外两个并没有太多的可比性，Gulp/Grunt是一种能够优化前端的开发流程的工具，而WebPack是一种模块化的解决方案，不过Webpack的优点使得Webpack可以替代Gulp/Grunt类的工具。
 
 Grunt和Gulp的工作方式是：在一个配置文件中，指明对某些文件进行类似编译，组合，压缩等任务的具体步骤，这个工具之后可以自动替你完成这些任务。Grunt和Gulp的工作流程:
@@ -69,13 +69,13 @@ Webpack的工作方式是：把你的项目当做一个整体，通过一个给�
 
 ![img2](http://upload-images.jianshu.io/upload_images/1031000-160bc667d3b6093a.png?imageMogr2/auto-orient/strip%7CimageView2/2)
 
-###How to use
+### How to use
 First, install [Webpack](https://www.npmjs.com/package/webpack) and [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server) globally.
- 
+
  ```bash
  $ npm i -g webpack webpack-dev-server
  ```
- 
+
 Problem:
 
     zhangjundeMacBook-Pro:webpack-demo zhangjun$ npm install
@@ -84,31 +84,31 @@ Problem:
     (node:72145) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit
     (node:72145) Warning: Possible EventEmitter memory leak detected. 11 error listeners added. Use emitter.setMaxListeners() to increase limit
     npm WARN deprecated css-list@0.1.3: Deprecated.
- 
+
 Fix:
 
     zhangjundeMacBook-Pro:demo01 zhangjun$ npm update -g minimatch@3.0.2
     zhangjundeMacBook-Pro:demo01 zhangjun$ npm update -g css-list@0.1.3
     zhangjundeMacBook-Pro:demo01 zhangjun$ npm install
- 
+
 Then, clone the repo and install the dependencies.
- 
+
  ```bash
  $ git clone git@github.com:zhangjunhd/react-examples.git
  $ cd webpack-demo
  $ npm install
  ```
- 
+
 Now, play with the source files under the repo's demo* directories.
- 
+
  ```bash
  $ cd demo01
  $ webpack-dev-server
  ```
- 
+
 Visit http://127.0.0.1:8080 with your browser.
 
-###Index
+### Index
 
 1. [Entry file](#demo01-entry-file-source)
 1. [Multiple entry files](#demo02-multiple-entry-files-source)
@@ -127,7 +127,7 @@ Visit http://127.0.0.1:8080 with your browser.
 1. [Hot Module Replacement](#demo15-hot-module-replacement-source)
 1. [React router](#demo16-react-router-source)
 
-####Demo01: Entry file ([source](../webpack-demos/demo01))
+#### Demo01: Entry file ([source](../webpack-demo/demo01))
 
 Entry file is a file which Webpack will read to build bundle.js.
 
@@ -166,7 +166,7 @@ Launch the server, visit http://127.0.0.1:8080 .
 $ webpack-dev-server
 ```
 
-###Demo02: Multiple entry files ([source](../webpack-demos/demo02))
+### Demo02: Multiple entry files ([source](../webpack-demo/demo02))
 
 Multiple entry files are allowed. It is useful for a multi-page app.
 
@@ -203,7 +203,7 @@ module.exports = {
 };
 ```
 
-###Demo03: Babel-loader ([source](../webpack-demos/demo03))
+### Demo03: Babel-loader ([source](../webpack-demo/demo03))
 
 Loaders are preprocessors which transform a resource file of your app ([more info](http://webpack.github.io/docs/using-loaders.html)). For example, [Babel-loader](https://www.npmjs.com/package/babel-loader) can transform JSX/ES6 file into JS file. Official doc has a complete list of [loaders](http://webpack.github.io/docs/list-of-loaders.html).
 
@@ -267,7 +267,7 @@ module: {
 }
 ```
 
-###Demo04: CSS-loader ([source](../webpack-demos/demo04))
+### Demo04: CSS-loader ([source](../webpack-demo/demo04))
 
 Webpack allows you to require CSS in JS file, then preprocessed CSS file with CSS-loader.
 
@@ -329,7 +329,7 @@ After launching the server, `index.html` will have internal style sheet.
 </head>
 ```
 
-###Demo05: Image loader ([source](../webpack-demos/demo05))
+### Demo05: Image loader ([source](../webpack-demo/demo05))
 
 Webpack could also require images in JS files.
 
@@ -380,7 +380,7 @@ After launching the server, `small.png` and `big.png` will have the following UR
 <img src="4853ca667a2b8b8844eb2693ac1b2578.png">
 ```
 
-###Demo06: CSS Module ([source](../webpack-demos/demo06))
+### Demo06: CSS Module ([source](../webpack-demo/demo06))
 
 `css-loader?modules` (the query parameter modules) enables the [CSS Modules](https://github.com/css-modules/css-modules) spec.
 
@@ -462,7 +462,7 @@ $ webpack-dev-server
 
 Visit http://127.0.0.1:8080 , you'll find that only second `h1` is red, because its CSS is local scoped, and both `h2` is blue, because its CSS is global scoped.
 
-###Demo07: UglifyJs Plugin ([source](../webpack-demos/demo07))
+### Demo07: UglifyJs Plugin ([source](../webpack-demo/demo07))
 
 Webpack has a plugin system to expand its functions. For example, [UglifyJs Plugin](http://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin) will minify output(`bundle.js`) JS codes.
 
@@ -510,7 +510,7 @@ After launching the server, `main.js` will be minified into following.
 var o="Hello";o+=" World",document.write("<h1>"+o+"</h1>")
 ```
 
-###Demo08: HTML Webpack Plugin and Open Browser Webpack Plugin ([source](../webpack-demos/demo08))
+### Demo08: HTML Webpack Plugin and Open Browser Webpack Plugin ([source](../webpack-demo/demo08))
 
 This demo shows you how to load 3rd-party plugins.
 
@@ -553,7 +553,7 @@ $ webpack-dev-server
 
 Now you don't need to write `index.html` by hand and don't have to open browser by yourself. Webpack did all these things for you.
 
-###Demo09: Environment flags ([source](../webpack-demos/demo09))
+### Demo09: Environment flags ([source](../webpack-demo/demo09))
 
 You can enable some codes only in development environment with environment flags.
 
@@ -606,7 +606,7 @@ $ set DEBUG=true
 $ webpack-dev-server
 ```
 
-###Demo10: Code splitting ([source](../webpack-demos/demo10))
+### Demo10: Code splitting ([source](../webpack-demo/demo10))
 
 For big web apps it’s not efficient to put all code into a single file, Webpack allows you to split them into several chunks. Especially if some blocks of code are only required under some circumstances, these chunks could be loaded on demand.
 
@@ -658,7 +658,7 @@ $ webpack-dev-server
 
 On the surface, you won't feel any differences. However, Webpack actually builds `main.js` and `a.js` into different chunks(`bundle.js` and `1.bundle.js`), and loads `1.bundle.js` from `bundle.js` when on demand.
 
-###Demo11: Code splitting with bundle-loader ([source](../webpack-demos/demo11))
+### Demo11: Code splitting with bundle-loader ([source](../webpack-demo/demo11))
 
 Another way of code splitting is using [bundle-loader](https://www.npmjs.com/package/bundle-loader).
 
@@ -681,7 +681,7 @@ load(function(file) {
 
 Now Webpack will build `main.js` into `bundle.js`, and `a.js` into `1.bundle.js`.
 
-###Demo12: Common chunk ([source](../webpack-demos/demo12))
+### Demo12: Common chunk ([source](../webpack-demo/demo12))
 
 When multi scripts have common chunks, you can extract the common part into a separate file with CommonsChunkPlugin.
 
@@ -749,7 +749,7 @@ module.exports = {
 }
 ```
 
-###Demo13: Vendor chunk ([source](../webpack-demos/demo13))
+### Demo13: Vendor chunk ([source](../webpack-demo/demo13))
 
 You can also extract the vendor libraries from a script into a separate file with CommonsChunkPlugin.
 
@@ -818,7 +818,7 @@ module.exports = {
 };
 ```
 
-###Demo14: Exposing global variables ([source](../webpack-demos/demo14))
+### Demo14: Exposing global variables ([source](../webpack-demo/demo14))
 
 If you want to use some global variables, and don't want to include them in the Webpack bundle, you can enable `externals` field in `webpack.config.js` ([official document](http://webpack.github.io/docs/library-and-externals.html)).
 
@@ -871,7 +871,7 @@ ReactDOM.render(
 );
 ```
 
-###Demo15: Hot Module Replacement ([source](../webpack-demos/demo15))
+### Demo15: Hot Module Replacement ([source](../webpack-demo/demo15))
 
 [Hot Module Replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack) (HMR) exchanges, adds, or removes modules while an application is running **without a page reload**.
 
@@ -972,9 +972,9 @@ index.html
 </html>
 ```
 
-###Demo16: React router ([source](../webpack-demos/demo16))
+### Demo16: React router ([source](../webpack-demo/demo16))
 
-This demo uses webpack to build [React-router](https://github.com/rackt/react-router/blob/0.13.x/docs/guides/overview.md)'s official example.
+This demo uses webpack to build [React-router](https://github.com/ReactTraining/react-router)'s official example.
 
 Let's imagine a little app with a dashboard, inbox, and calendar.
 
@@ -1004,7 +1004,7 @@ Let's imagine a little app with a dashboard, inbox, and calendar.
 $ webpack-dev-server --history-api-fallback
 ```
 
-###参考资料
+### 参考资料
 [入门Webpack][1]
 [Webpack：教程][2]
 
