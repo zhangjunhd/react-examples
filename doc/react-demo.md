@@ -24,7 +24,7 @@
 </html>
 ```
 
-上面代码有两个地方需要注意。首先，最后一个 `<script>` 标签的 type 属性为 text/babel 。这是因为 React 独有的 JSX 语法，跟 JavaScript 不兼容。凡是使用 JSX 的地方，都要加上 type="text/babel" 。 
+上面代码有两个地方需要注意。首先，最后一个 `<script>` 标签的 type 属性为 text/babel 。这是因为 React 独有的 JSX 语法，跟 JavaScript 不兼容。凡是使用 JSX 的地方，都要加上 type="text/babel" 。
 
 其次，上面代码一共用了三个库： react.js 、react-dom.js 和 Browser.js ，它们必须首先加载。其中，react.js 是 React 的核心库，react-dom.js 是提供与 DOM 相关的功能，Browser.js 的作用是将 JSX 语法转为 JavaScript 语法，这一步很消耗时间，实际上线的时候，应该将它放到服务器完成。
 
@@ -39,7 +39,7 @@ ReactDOM.render 是 React 的最基本方法，用于将模板转为 HTML 语言
 ```javascript
 <script type="text/babel">
     var names = ['Alice', 'Emily', 'Kate'];
-    
+
     ReactDOM.render(
     <div>
     {
@@ -99,7 +99,7 @@ ReactDOM.render(
 
 注意，组件类的第一个字母必须大写，否则会报错，比如HelloMessage不能写成helloMessage。另外，组件类只能包含一个顶层标签，否则也会报错。
 
-```javascript    
+```javascript
 var HelloMessage = React.createClass({
   render: function() {
     return <h1>
@@ -362,7 +362,7 @@ ReactDOM.render(
 
 上面代码在hello组件加载以后，通过 componentDidMount 方法设置一个定时器，每隔100毫秒，就重新设置组件的透明度，从而引发重新渲染。
 
-另外，组件的style属性的设置方式也值得注意，不能写成 
+另外，组件的style属性的设置方式也值得注意，不能写成
 
     style="opacity:{this.state.opacity};"
 
@@ -469,19 +469,19 @@ var RepoList = React.createClass({
 ```
 
 [0]: http://www.ruanyifeng.com/blog/2015/03/react.html
-[1]: ../react-demos/demo01/index.html
-[2]: ../react-demos/demo02/index.html
-[3]: ../react-demos/demo03/index.html
-[4]: ../react-demos/demo04/index.html
-[5]: ../react-demos/demo05/index.html
-[6]: ../react-demos/demo06/index.html
-[7]: ../react-demos/demo07/index.html
-[8]: ../react-demos/demo08/index.html
-[9]: ../react-demos/demo09/index.html
-[10]: ../react-demos/demo10/index.html
-[11]: ../react-demos/demo11/index.html
-[12]: ../react-demos/demo12/index.html
-[13]: ../react-demos/demo13/index.html
+[1]: ../react-demo/demo01/index.html
+[2]: ../react-demo/demo02/index.html
+[3]: ../react-demo/demo03/index.html
+[4]: ../react-demo/demo04/index.html
+[5]: ../react-demo/demo05/index.html
+[6]: ../react-demo/demo06/index.html
+[7]: ../react-demo/demo07/index.html
+[8]: ../react-demo/demo08/index.html
+[9]: ../react-demo/demo09/index.html
+[10]: ../react-demo/demo10/index.html
+[11]: ../react-demo/demo11/index.html
+[12]: ../react-demo/demo12/index.html
+[13]: ../react-demo/demo13/index.html
 [15]: http://calendar.perfplanet.com/2013/diff/
 [16]: https://facebook.github.io/react/docs/events.html#supported-events
 [17]: https://facebook.github.io/react/docs/forms.html
