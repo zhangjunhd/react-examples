@@ -13,6 +13,10 @@
 1. [Redux 入门教程][9]
 1. [React-Native搭建开发环境][10]
 
+---
+
+1. [React 设计思想](https://github.com/react-guide/react-basic)
+1. [Redux tutorial]
 
 ## React 技术栈
 ![react-stack](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016092301.png)
@@ -29,3 +33,4 @@
 [9]: doc/redux-demo.md
 [10]: doc/react-native-install.md
 [11]: http://www.ruanyifeng.com/blog/2012/06/sass.html
+[12]: doc/redux-tutorial.md
