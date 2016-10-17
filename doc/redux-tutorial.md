@@ -1048,3 +1048,6 @@ server.listen(port)
 console.log(`Server is listening on http://127.0.0.1:${port}`)
 ```
 转到 11_src/src/server.js...
+
+## 参考资料
+https://github.com/react-guide/redux-tutorial-cn

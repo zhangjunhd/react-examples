@@ -16,7 +16,7 @@
 ---
 
 1. [React 设计思想](https://github.com/react-guide/react-basic)
-1. [Redux tutorial]
+1. [Redux tutorial][12]
 
 ## React 技术栈
 ![react-stack](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016092301.png)
