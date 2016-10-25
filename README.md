@@ -9,9 +9,9 @@
 1. [Setting up CSS Modules with React and Webpack][13]
 1. [CSS Modules by Example][15]
 1. [SASS用法指南][11]
+1. [使用scss來加速寫css][16]
 1. [Flex 布局教程：语法篇][4]
 1. [Flex 布局教程：实例篇][5]
-
 
 ## React
 1. [React入门示例库][2]
@@ -43,3 +43,4 @@
 [13]: http://javascriptplayground.com/blog/2016/07/css-modules-webpack-react/
 [14]: https://github.com/react-guide/react-basic
 [15]: http://andrewhfarmer.com/css-modules-by-example/
+[16]: http://blog.visioncan.com/2011/sass-scss-your-css/
