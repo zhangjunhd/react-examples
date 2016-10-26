@@ -1,4 +1,37 @@
 # react-examples
+## [JavaScript高级程序设计（第3版）][31]
+
+- [变量、作用域和内存问题][32]
+  - 基本类型和引用类型
+  - 执行环境及作用域
+- [引用类型][33]
+  - Object 类型
+  - Array 类型
+  - Date 类型
+  - RegExp 类型
+  - Function 类型
+  - 基本包装类型
+  - 单体内置对象
+- [面向对象的程序设计][34]
+  - 理解对象
+  - 创建对象
+  - 继承
+- [函数表达式][35]
+  - 递归
+  - 闭包
+  - 模仿块级作用域
+  - 私有变量
+- [BOM][36]
+  - window对象
+  - location对象
+  - navigator对象
+  - screen对象
+  - history对象
+- [客户端检测][37]
+  - 能力检测
+  - 怪癖检测
+  - 用户代理检测
+
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
 1. [Babel入门教程][1]
@@ -24,8 +57,8 @@
 ## React-Native
 1. [React-Native搭建开发环境][10]
 
-## React 技术栈
-![react-stack](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016092301.png)
+## Web服务
+1. [Express][17]
 
 [0]: http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html
 [1]: doc/babel-guide.md
@@ -44,3 +77,12 @@
 [14]: https://github.com/react-guide/react-basic
 [15]: http://andrewhfarmer.com/css-modules-by-example/
 [16]: http://blog.visioncan.com/2011/sass-scss-your-css/
+[17]: http://www.expressjs.com.cn/
+
+[31]: https://book.douban.com/subject/10546125/
+[32]: professional_javascript_for_web/04-variable_scope_and_menory.ipynb
+[33]: professional_javascript_for_web/05-reference_types.ipynb
+[34]: professional_javascript_for_web/06-object_oriented_programming.ipynb
+[35]: professional_javascript_for_web/07-function_expression.ipynb
+[36]: professional_javascript_for_web/08-the-browser-object-model.md
+[37]: professional_javascript_for_web/09-client-detection.md
