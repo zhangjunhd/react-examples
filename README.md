@@ -60,6 +60,11 @@
   - 基本用法
   - 2D上下文
   - WebGL
+- [HTML5脚本编程][44]
+  - 跨文档消息传递
+  - 原生拖放
+  - 媒体元素
+  - 历史状态管理
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -121,3 +126,4 @@
 [41]: professional_javascript_for_web/ch13
 [42]: professional_javascript_for_web/ch14
 [43]: professional_javascript_for_web/ch15
+[44]: professional_javascript_for_web/ch16
