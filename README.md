@@ -50,6 +50,13 @@
   - 事件类型
   - 内存和性能
   - 模拟事件
+- [表单脚本][42]
+  - 表单的基础知识
+  - 文本框脚本
+  - 选择框脚本
+  - 表单序列化
+  - 富文本编辑
+
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -109,3 +116,4 @@
 [39]: professional_javascript_for_web/11-dom_extentions.md
 [40]: professional_javascript_for_web/ch12
 [41]: professional_javascript_for_web/ch13
+[42]: professional_javascript_for_web/ch14
