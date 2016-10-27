@@ -37,10 +37,19 @@
   - 选择符API
   - 元素遍历
   - HTML5
-  - 专属扩展
+  - 专有扩展
 - [DOM2和DOM3][40]
-
-
+  - DOM变化
+  - 样式
+  - 遍历
+  - 范围
+- [事件][41]
+  - 事件流
+  - 事件处理程序
+  - 事件对象
+  - 事件类型
+  - 内存和性能
+  - 模拟事件
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -99,3 +108,4 @@
 [38]: professional_javascript_for_web/10-dom.md
 [39]: professional_javascript_for_web/11-dom_extentions.md
 [40]: professional_javascript_for_web/ch12
+[41]: professional_javascript_for_web/ch13
