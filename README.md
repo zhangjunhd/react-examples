@@ -56,7 +56,10 @@
   - 选择框脚本
   - 表单序列化
   - 富文本编辑
-
+- [使用Canvas绘图][43]
+  - 基本用法
+  - 2D上下文
+  - WebGL
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -117,3 +120,4 @@
 [40]: professional_javascript_for_web/ch12
 [41]: professional_javascript_for_web/ch13
 [42]: professional_javascript_for_web/ch14
+[43]: professional_javascript_for_web/ch15
