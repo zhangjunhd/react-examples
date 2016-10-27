@@ -65,6 +65,11 @@
   - 原生拖放
   - 媒体元素
   - 历史状态管理
+- [错误处理与调试][45]
+  - 浏览器错误与报告
+  - 错误处理
+  - 调试技术
+  - 常见的IE错误
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -127,3 +132,4 @@
 [42]: professional_javascript_for_web/ch14
 [43]: professional_javascript_for_web/ch15
 [44]: professional_javascript_for_web/ch16
+[45]: professional_javascript_for_web/ch17
