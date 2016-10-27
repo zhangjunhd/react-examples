@@ -70,6 +70,11 @@
   - 错误处理
   - 调试技术
   - 常见的IE错误
+- [JavaScript与XML][46]
+  - 浏览器对XML DOM的支持
+  - 浏览器对XPath的支持
+  - 浏览器对XSLT的支持
+
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -133,3 +138,4 @@
 [43]: professional_javascript_for_web/ch15
 [44]: professional_javascript_for_web/ch16
 [45]: professional_javascript_for_web/ch17
+[46]: professional_javascript_for_web/ch18
