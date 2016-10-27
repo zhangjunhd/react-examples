@@ -86,3 +86,4 @@
 [35]: professional_javascript_for_web/07-function_expression.ipynb
 [36]: professional_javascript_for_web/08-the-browser-object-model.md
 [37]: professional_javascript_for_web/09-client-detection.md
+[38]: professional_javascript_for_web/10-dom.md
