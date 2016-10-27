@@ -82,7 +82,33 @@
 - [JSON][48]
   - 语法
   - 解析与序列化
-
+- [Ajax与Comet][49]
+  - XMLHttpRequest对象
+  - XMLHttpRequest2级
+  - 进度事件
+  - 跨域源资源共享
+  - 其他跨域技术
+- [高级技巧][50]
+  - 高级函数
+  - 防篡改对象
+  - 高级定时器
+  - 自定义事件
+  - 拖放
+- [离线应用与客户端存储][51]
+  - 离线检测
+  - 应用缓存
+  - 数据存储
+- [最佳实践][52]
+  - 可维护性
+  - 性能
+  - 部署
+- [新兴的API][53]
+  - requestAnimationFrame()
+  - Page Visibility API
+  - Geolocation API
+  - File API
+  - Web计时
+  - Web Workers
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -149,3 +175,8 @@
 [46]: professional_javascript_for_web/ch18
 [47]: professional_javascript_for_web/ch19
 [48]: professional_javascript_for_web/ch20
+[49]: professional_javascript_for_web/ch21
+[50]: professional_javascript_for_web/ch22
+[51]: professional_javascript_for_web/ch23
+[52]: professional_javascript_for_web/ch24
+[53]: professional_javascript_for_web/ch25
