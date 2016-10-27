@@ -74,7 +74,11 @@
   - 浏览器对XML DOM的支持
   - 浏览器对XPath的支持
   - 浏览器对XSLT的支持
-
+- [E4X][47]
+  - E4X的类型
+  - 一般用法
+  - 其他变化
+  - 全面启用E4X
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -139,3 +143,4 @@
 [44]: professional_javascript_for_web/ch16
 [45]: professional_javascript_for_web/ch17
 [46]: professional_javascript_for_web/ch18
+[47]: professional_javascript_for_web/ch19
