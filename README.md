@@ -33,6 +33,11 @@
 - [DOM][38]
   - 节点层次
   - DOM操作技术
+- [DOM扩展][39]
+  - 选择符API
+  - 元素遍历
+  - HTML5
+  - 专属扩展
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -89,3 +94,4 @@
 [36]: professional_javascript_for_web/08-the-browser-object-model.md
 [37]: professional_javascript_for_web/09-client-detection.md
 [38]: professional_javascript_for_web/10-dom.md
+[39]: professional_javascript_for_web/11-dom_extentions.md
