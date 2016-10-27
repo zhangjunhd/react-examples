@@ -79,6 +79,10 @@
   - 一般用法
   - 其他变化
   - 全面启用E4X
+- [JSON][48]
+  - 语法
+  - 解析与序列化
+
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -144,3 +148,4 @@
 [45]: professional_javascript_for_web/ch17
 [46]: professional_javascript_for_web/ch18
 [47]: professional_javascript_for_web/ch19
+[48]: professional_javascript_for_web/ch20
