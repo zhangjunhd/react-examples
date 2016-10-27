@@ -38,6 +38,9 @@
   - 元素遍历
   - HTML5
   - 专属扩展
+- [DOM2和DOM3][40]
+
+
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -95,3 +98,4 @@
 [37]: professional_javascript_for_web/09-client-detection.md
 [38]: professional_javascript_for_web/10-dom.md
 [39]: professional_javascript_for_web/11-dom_extentions.md
+[40]: professional_javascript_for_web/ch12
