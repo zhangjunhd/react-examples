@@ -1,6 +1,7 @@
 # react-examples
 ## JavaScript/ECMAScript
-- [JavaScript高级程序设计（第3版）][31]
+1. [JavaScript高级程序设计（第3版）][31]
+1. [ECMAScript 6入门][33]
 
 ## 工程化与部署
 1. [npm scripts 使用指南][0]
@@ -20,6 +21,9 @@
 1. [React入门示例库][2]
 1. [React 设计思想][14]
 1. [React Router 使用教程][7]
+1. [React Router demo][34]
+
+## MVC
 1. [Flux 架构][8]
 1. [Redux 入门教程][9]
 1. [Redux tutorial][12]
@@ -56,3 +60,5 @@
 
 [31]: professional_javascript_for_web/
 [32]: relay-demo/relay-treasurehunt/
+[33]: http://es6.ruanyifeng.com/?search=fetch&x=0&y=0
+[34]: react-router-demo/
