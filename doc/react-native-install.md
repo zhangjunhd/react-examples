@@ -44,6 +44,10 @@
 
 也可以在Nuclide中打开AwesomeProject文件夹 然后[运行][2]，或是双击ios/AwesomeProject.xcodeproj文件然后在Xcode中点击Run按钮。
 
+### 参考资料
+- [搭建开发环境][4]
+
 [1]: https://nuclide.io/docs/quick-start/getting-started/
 [2]: https://nuclide.io/docs/platforms/react-native/#command-line
 [3]: http://www.ruanyifeng.com/blog/2015/03/react.html
+[4]: http://reactnative.cn/docs/0.36/getting-started.html

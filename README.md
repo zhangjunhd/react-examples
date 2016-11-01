@@ -30,6 +30,7 @@
 
 ## React-Native
 1. [React-Native搭建开发环境][10]
+1. [在 Android 上开始使用 React Native][41]
 1. [demo:FirstProject][40]
 
 ## Web服务
@@ -65,3 +66,4 @@
 [34]: react-router-demo/
 
 [40]: react-native-demo/FirstProject
+[41]: http://csbun.github.io/blog/2015/12/starting-react-native-with-android/
