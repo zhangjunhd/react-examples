@@ -40,6 +40,7 @@
 1. [demo:SmarterWeather][47]
 1. [demo:Depends][48]
 1. [demo:AndroidDepends][49]
+1. [demo:Zebreto][50]
 
 ## Web服务
 1. [Express][17]
@@ -83,3 +84,4 @@
 [47]: react-native-demo/SmarterWeather
 [48]: react-native-demo/Depends
 [49]: react-native-demo/AndroidDepends
+[50]: react-native-demo/Zebreto
