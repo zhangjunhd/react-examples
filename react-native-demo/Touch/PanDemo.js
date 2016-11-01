@@ -104,21 +104,25 @@ class PanResponderExample extends Component {
     this.circle && this.circle.setNativeProps(this._circleStyles);
   }
 
+  //noinspection JSAnnotator
   _handleStartShouldSetPanResponder = (e: Object, gestureState: Object) => {
     // Should we become active when the user presses down on the circle?
     return true;
   }
 
+  //noinspection JSAnnotator
   _handleMoveShouldSetPanResponder = (e: Object, gestureState: Object) => {
     // Should we become active when the user moves a touch over the circle?
     return true;
   }
 
+  //noinspection JSAnnotator
   _handlePanResponderGrant = (e: Object, gestureState: Object) => {
     this._highlight();
   }
 
-  _handlePanResponderMove = (e: Object, gestureState: Object) => {
+  //noinspection JSAnnotator
+  _handlePanResponderMove = (e: å, gestureState: Object) => {
     this.setState({
       stateID: gestureState.stateID,
       moveX: gestureState.moveX,
@@ -138,6 +142,7 @@ class PanResponderExample extends Component {
     this._updatePosition();
   }
 
+  //noinspection JSAnnotator
   _handlePanResponderEnd = (e: Object, gestureState: Object) => {
     this._unHighlight();
     this._previousLeft += gestureState.dx;
