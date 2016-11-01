@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
 });
 
 class BookItem extends Component {
+  //noinspection JSAnnotator
   propTypes: {
     coverURL: React.PropTypes.string.isRequired,
     author: React.PropTypes.string.isRequired,

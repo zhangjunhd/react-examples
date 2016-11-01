@@ -35,6 +35,7 @@
 1. [demo:WeatherProject][42]
 1. [demo:Touch][43]
 1. [demo:Bestsellers][44]
+1. [demo:PlatformSpecific][45]
 
 ## Web服务
 1. [Express][17]
@@ -73,3 +74,4 @@
 [42]: react-native-demo/WeatherProject
 [43]: react-native-demo/Touch
 [44]: react-native-demo/Bestsellers
+[45]: react-native-demo/PlatformSpecific
