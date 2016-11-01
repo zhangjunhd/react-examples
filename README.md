@@ -36,6 +36,7 @@
 1. [demo:Touch][43]
 1. [demo:Bestsellers][44]
 1. [demo:PlatformSpecific][45]
+1. [demo:Styles][46]
 
 ## Web服务
 1. [Express][17]
@@ -75,3 +76,4 @@
 [43]: react-native-demo/Touch
 [44]: react-native-demo/Bestsellers
 [45]: react-native-demo/PlatformSpecific
+[46]: react-native-demo/Styles
