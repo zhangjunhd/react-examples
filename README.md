@@ -38,6 +38,7 @@
 1. [demo:PlatformSpecific][45]
 1. [demo:Styles][46]
 1. [demo:SmarterWeather][47]
+1. [demo:Depends][48]
 
 ## Web服务
 1. [Express][17]
@@ -79,3 +80,4 @@
 [45]: react-native-demo/PlatformSpecific
 [46]: react-native-demo/Styles
 [47]: react-native-demo/SmarterWeather
+[48]: react-native-demo/Depends

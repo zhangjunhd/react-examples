@@ -9,10 +9,10 @@
 - [对象](#对象)
 - [数组](#数组)
 - [函数](#函数)
-- [Map结构](#Map结构)
-- [Class](#Class)
+- [Map结构](#map结构)
+- [Class](#class)
 - [模块](#模块)
-- [ESLint的使用](#ESLint的使用)
+- [ESLint的使用](#eslint的使用)
 
 ## 块级作用域
 ### let取代var
