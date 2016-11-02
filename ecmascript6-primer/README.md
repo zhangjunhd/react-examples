@@ -29,11 +29,11 @@
     - 严格模式
   - Class的继承
     - 基本用法
-    - 类的prototype属性和__proto__属性
+    - 类的prototype属性和\_\_proto\_\_属性
     - Extends 的继承目标
     - Object.getPrototypeOf()
     - super关键字
-    - 实例的__proto__属性
+    - 实例的\_\_proto\_\_属性
     - 原生构造函数的继承
     - Class的取值函数（getter）和存值函数（setter）
     - Class的Generator方法

@@ -10,11 +10,11 @@
   - [严格模式](#严格模式)
 - [Class的继承](#class的继承)
   - [基本用法](#基本用法)
-  - [类的prototype属性和__proto__属性](#类的prototype属性和__proto__属性)
+  - [类的prototype属性和\_\_proto\_\_属性](#类的prototype属性和\_\_proto\_\_属性)
   - [Extends的继承目标](#extends的继承目标)
   - [Object.getPrototypeOf()](#object.getprototypeof())
   - [super关键字](#super关键字)
-  - [实例的__proto__属性](#实例的__proto__属性)
+  - [实例的\_\_proto\_\_属性](#实例的\_\_proto\_\_属性)
   - [原生构造函数的继承](#原生构造函数的继承)
   - [Class的取值函数（getter）和存值函数（setter）](#class的取值函数（getter）和存值函数（setter）)
   - [Class的Generator方法](#class的generator方法)
@@ -230,7 +230,7 @@ var p2 = new Point(3,2);
 p1.__proto__ === p2.__proto__ //true
 ```
 
-这也意味着，可以通过实例的__proto__属性为Class添加方法。
+这也意味着，可以通过实例的\_\_proto\_\_属性为Class添加方法。
 
 ```js
 var p1 = new Point(2,3);
@@ -391,7 +391,7 @@ cp instanceof Point // true
 
 上面代码中，实例对象cp同时是ColorPoint和Point两个类的实例，这与ES5的行为完全一致。
 
-### 类的prototype属性和__proto__属性
+### 类的prototype属性和\_\_proto\_\_属性
 大多数浏览器的ES5实现之中，每一个对象都有__proto__属性，指向对应的构造函数的prototype属性。Class作为构造函数的语法糖，同时有prototype属性和__proto__属性，因此同时存在两条继承链。
 
 1. 子类的__proto__属性，表示构造函数的继承，总是指向父类。
@@ -546,8 +546,8 @@ var obj = {
 obj.toString(); // MyObject: [object Object]
 ```
 
-### 实例的__proto__属性
-子类实例的__proto__属性的__proto__属性，指向父类实例的__proto__属性。也就是说，子类的原型的原型，是父类的原型。
+### 实例的\_\_proto\_\_属性
+子类实例的\_\_proto\_\_属性的\_\_proto\_\_属性，指向父类实例的\_\_proto\_\_属性。也就是说，子类的原型的原型，是父类的原型。
 
 ```js
 var p1 = new Point(2, 3);
