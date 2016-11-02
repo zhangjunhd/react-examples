@@ -3,19 +3,19 @@
 - [属性的简洁表示法](#属性的简洁表示法)
 - [属性名表达式](#属性名表达式)
 - [方法的name属性](#方法的name属性)
-- [Object.is()](#object.is())
-- [Object.assign()](#object.assign())
+- [Object.is()](#objectis)
+- [Object.assign()](#objectassign)
   - 基本用法
   - 注意点
   - 常见用途
 - [属性的可枚举性](#属性的可枚举性)
 - [属性的遍历](#属性的遍历)
-- [Object.values()，Object.entries()](#object.values()，object.entries())
+- [Object.values()，Object.entries()](#objectvaluesobjectentries)
   - Object.keys()
   - Object.values()
   - Object.entries
 - [对象的扩展运算符](#对象的扩展运算符)
-- [Object.getOwnPropertyDescriptors()](#object.getownpropertydescriptors())
+- [Object.getOwnPropertyDescriptors()](#objectgetownpropertydescriptors)
 
 ## 属性的简洁表示法
 ES6允许直接写入变量和函数，作为对象的属性和方法。
