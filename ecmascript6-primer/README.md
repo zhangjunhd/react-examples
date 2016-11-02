@@ -10,6 +10,22 @@
 - 数组的扩展
 - 函数的扩展
 - [对象的扩展][3]
+  - 属性的简洁表示法
+  - 属性名表达式
+  - 方法的name属性
+  - Object.is()
+  - Object.assign()
+    - 基本用法
+    - 注意点
+    - 常见用途
+  - 属性的可枚举性
+  - 属性的遍历
+  - Object.values()，Object.entries()
+    - Object.keys()
+    - Object.values()
+    - Object.entries
+  - 对象的扩展运算符
+  - Object.getOwnPropertyDescriptors()
 - Symbol
 - Proxy和Reflect
 - 二进制数组
