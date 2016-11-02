@@ -9,7 +9,7 @@
 - 正则的扩展
 - 数组的扩展
 - 函数的扩展
-- 对象的扩展
+- [对象的扩展][3]
 - Symbol
 - Proxy和Reflect
 - 二进制数组
@@ -18,7 +18,7 @@
 - Fenerator函数
 - Promise对象
 - 异步操作和Async函数
-- Class
+- [Class][2]
 - Decorator
 - Module
 - 函数式编程
@@ -38,3 +38,5 @@
   - ESLint的使用
 
 [1]: coding-style.md
+[2]: class.md
+[3]: object-extend.md
