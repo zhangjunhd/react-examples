@@ -22,6 +22,7 @@
   - [Class的静态属性和实例属性](#class的静态属性和实例属性)
   - [new.target属性](#new.target属性)
   - [Mixin模式的实现](#mixin模式的实现)
+
 ## Class基本语法
 ### 概述
 JavaScript语言的传统方法是通过构造函数，定义并生成新对象。
