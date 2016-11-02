@@ -19,6 +19,28 @@
 - Promise对象
 - 异步操作和Async函数
 - [Class][2]
+  - Class基本语法
+    - 概述
+    - constructor方法
+    - 类的实例对象
+    - name属性
+    - Class表达式
+    - 不存在变量提升
+    - 严格模式
+  - Class的继承
+    - 基本用法
+    - 类的prototype属性和__proto__属性
+    - Extends 的继承目标
+    - Object.getPrototypeOf()
+    - super关键字
+    - 实例的__proto__属性
+    - 原生构造函数的继承
+    - Class的取值函数（getter）和存值函数（setter）
+    - Class的Generator方法
+    - Class的静态方法
+    - Class的静态属性和实例属性
+    - new.target属性
+    - Mixin模式的实现
 - Decorator
 - Module
 - 函数式编程

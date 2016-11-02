@@ -1,4 +1,27 @@
 # Class
+## 目录
+- [Class基本语法](#class基本语法)
+  - [概述](#概述)
+  - [constructor方法](#constructor方法)
+  - [类的实例对象](#类的实例对象)
+  - [name属性](#name属性)
+  - [Class表达式](#class表达式)
+  - [不存在变量提升](#不存在变量提升)
+  - [严格模式](#严格模式)
+- [Class的继承](#class的继承)
+  - [基本用法](#基本用法)
+  - [类的prototype属性和__proto__属性](#类的prototype属性和__proto__属性)
+  - [Extends的继承目标](#extends的继承目标)
+  - [Object.getPrototypeOf()](#object.getprototypeof())
+  - [super关键字](#super关键字)
+  - [实例的__proto__属性](#实例的__proto__属性)
+  - [原生构造函数的继承](#原生构造函数的继承)
+  - [Class的取值函数（getter）和存值函数（setter）](#class的取值函数（getter）和存值函数（setter）)
+  - [Class的Generator方法](#class的generator方法)
+  - [Class的静态方法](#class的静态方法)
+  - [Class的静态属性和实例属性](#class的静态属性和实例属性)
+  - [new.target属性](#new.target属性)
+  - [Mixin模式的实现](#mixin模式的实现)
 ## Class基本语法
 ### 概述
 JavaScript语言的传统方法是通过构造函数，定义并生成新对象。
@@ -429,7 +452,7 @@ B.prototype = new A();
 B.prototype.__proto__ = A.prototype;
 ```
 
-### Extends 的继承目标
+### Extends的继承目标
 extends关键字后面可以跟多种类型的值。
 
 ```js
