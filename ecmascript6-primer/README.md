@@ -73,6 +73,21 @@
     - Generator与协程
     - 应用
 - [Promise对象][6]
+  - Promise的含义
+  - 基本用法
+  - Promise.prototype.then()
+  - Promise.prototype.catch()
+  - Promise.all()
+  - Promise.race()
+  - Promise.resolve()
+  - Promise.reject()
+  - 两个有用的附加方法
+    - done()
+    - finally()
+  - 应用
+    - 加载图片
+    - Generator函数与Promise的结合
+  - async函数
 - [异步操作和Async函数][7]
 - [Class][2]
   - Class基本语法

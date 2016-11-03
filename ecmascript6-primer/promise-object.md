@@ -1,4 +1,21 @@
 # Promise对象
+## 目录
+- [Promise的含义](#promise的含义)
+- [基本用法](#基本用法)
+- [Promise.prototype.then()](#promiseprototypethen)
+- [Promise.prototype.catch()](#promiseprototypecatch)
+- [Promise.all()](#promiseall)
+- [Promise.race()](#promiserace)
+- [Promise.resolve()](#promiseresolve)
+- [Promise.reject()](#promisereject)
+- [两个有用的附加方法](#两个有用的附加方法)
+  - [done()](#done)
+  - [finally()](#finally)
+- [应用](#应用)
+  - [加载图片](#加载图片)
+  - [Generator函数与Promise的结合](#generator函数与promise的结合)
+- [async函数](#async函数)
+
 ## Promise的含义
 Promise是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。它由社区最早提出和实现，ES6将其写进了语言标准，统一了用法，原生提供了Promise对象。
 
