@@ -8,7 +8,7 @@
   - [for...of循环](#for...of循环)
   - [Generator.prototype.throw()](#generatorprototypethrow)
   - [Generator.prototype.return()](#generatorprototypereturn)
-  - [yield*语句](#yield*语句)
+  - [yield*语句](#yield语句-1)
   - [作为对象属性的Generator函数](#作为对象属性的generator函数)
 - [含义](#含义)
   - [Generator与状态机](#generator与状态机)
