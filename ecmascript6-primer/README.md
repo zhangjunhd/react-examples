@@ -89,6 +89,32 @@
     - Generator函数与Promise的结合
   - async函数
 - [异步操作和Async函数][7]
+  - 回调函数
+  - Promise
+  - Generator函数
+    - 协程
+    - Generator函数的概念
+    - Generator函数的数据交换和错误处理
+    - 异步任务的封装
+  - Thunk函数
+    - 参数的求值策略
+    - Thunk函数的含义
+    - JavaScript语言的Thunk函数
+    - Thunkify模块
+    - Generator 函数的流程管理
+    - Thunk函数的自动流程管理
+  - co模块
+    - 基本用法
+    - co模块的原理
+    - 基于Promise对象的自动执行
+    - co模块的源码
+    - 处理并发的异步操作
+  - async函数
+    - 含义
+    - async函数的实现
+    - async函数的用法
+    - 注意点
+    - 与Promise、Generator的比较
 - [Class][2]
   - Class基本语法
     - 概述
