@@ -58,6 +58,20 @@
 - Set和Map数据结构
 - Iterator和for...of循环
 - [Generator函数][5]
+  - 简介
+    - 基本概念
+    - yield语句
+    - 与Iterator接口的关系
+    - next方法的参数
+    - for...of循环
+    - Generator.prototype.throw()
+    - Generator.prototype.return()
+    - yield*语句
+    - 作为对象属性的Generator函数
+  - 含义
+    - Generator与状态机
+    - Generator与协程
+    - 应用
 - [Promise对象][6]
 - [异步操作和Async函数][7]
 - [Class][2]

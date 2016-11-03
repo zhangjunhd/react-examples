@@ -1,4 +1,20 @@
 # Generator函数
+## 目录
+- [简介](#简介)
+  - [基本概念](#基本概念)
+  - [yield语句](#yield语句)
+  - [与Iterator接口的关系](#与iterator接口的关系)
+  - [next方法的参数](#next方法的参数)
+  - [for...of循环](#for...of循环)
+  - [Generator.prototype.throw()](#generatorprototypethrow)
+  - [Generator.prototype.return()](#generatorprototypereturn)
+  - [yield*语句](#yield*语句)
+  - [作为对象属性的Generator函数](#作为对象属性的generator函数)
+- [含义](#含义)
+  - [Generator与状态机](#generator与状态机)
+  - [Generator与协程](#generator与协程)
+  - [应用](#应用)
+
 ## 简介
 ### 基本概念
 Generator函数是ES6提供的一种异步编程解决方案，语法行为与传统函数完全不同。本章详细介绍Generator函数的语法和API，它的异步编程应用请看[《异步操作》][1]一章。
