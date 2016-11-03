@@ -8,7 +8,7 @@
 - 字符串的扩展
 - 正则的扩展
 - 数组的扩展
-- 函数的扩展
+- [函数的扩展][4]
 - [对象的扩展][3]
   - 属性的简洁表示法
   - 属性名表达式
@@ -31,7 +31,7 @@
 - 二进制数组
 - Set和Map数据结构
 - Iterator和for...of循环
-- Fenerator函数
+- [Generator函数][5]
 - Promise对象
 - 异步操作和Async函数
 - [Class][2]
@@ -78,3 +78,5 @@
 [1]: coding-style.md
 [2]: class.md
 [3]: object-extend.md
+[4]: function-extend.md
+[5]: generator-function.md

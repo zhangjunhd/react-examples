@@ -20,7 +20,7 @@
   - [Class的Generator方法](#class的generator方法)
   - [Class的静态方法](#class的静态方法)
   - [Class的静态属性和实例属性](#class的静态属性和实例属性)
-  - [new.target属性](#new.target属性)
+  - [new.target属性](#newtarget属性)
   - [Mixin模式的实现](#mixin模式的实现)
 
 ## Class基本语法
@@ -392,10 +392,10 @@ cp instanceof Point // true
 上面代码中，实例对象cp同时是ColorPoint和Point两个类的实例，这与ES5的行为完全一致。
 
 ### 类的prototype属性和\_\_proto\_\_属性
-大多数浏览器的ES5实现之中，每一个对象都有__proto__属性，指向对应的构造函数的prototype属性。Class作为构造函数的语法糖，同时有prototype属性和__proto__属性，因此同时存在两条继承链。
+大多数浏览器的ES5实现之中，每一个对象都有\_\_proto\_\_属性，指向对应的构造函数的prototype属性。Class作为构造函数的语法糖，同时有prototype属性和\_\_proto\_\_属性，因此同时存在两条继承链。
 
-1. 子类的__proto__属性，表示构造函数的继承，总是指向父类。
-2. 子类prototype属性的__proto__属性，表示方法的继承，总是指向父类的prototype属性。
+1. 子类的\_\_proto\_\_属性，表示构造函数的继承，总是指向父类。
+2. 子类prototype属性的\_\_proto\_\_属性，表示方法的继承，总是指向父类的prototype属性。
 
 ```js
 class A {
@@ -445,7 +445,7 @@ Object.setPrototypeOf(B, A);
 B.__proto__ = A;
 ```
 
-这两条继承链，可以这样理解：作为一个对象，子类（B）的原型（__proto__属性）是父类（A）；作为一个构造函数，子类（B）的原型（prototype属性）是父类的实例。
+这两条继承链，可以这样理解：作为一个对象，子类（B）的原型（\_\_proto\_\_属性）是父类（A）；作为一个构造函数，子类（B）的原型（prototype属性）是父类的实例。
 
 ```js
 B.prototype = new A();
@@ -499,7 +499,7 @@ A.__proto__ === Function.prototype // true
 A.prototype.__proto__ === undefined // true
 ```
 
-这种情况与第二种情况非常像。A也是一个普通函数，所以直接继承Funciton.prototype。但是，A调用后返回的对象不继承任何方法，所以它的__proto__指向Function.prototype，即实质上执行了下面的代码。
+这种情况与第二种情况非常像。A也是一个普通函数，所以直接继承Funciton.prototype。但是，A调用后返回的对象不继承任何方法，所以它的\_\_proto\_\_指向Function.prototype，即实质上执行了下面的代码。
 
 ```js
 class C extends null {
@@ -557,7 +557,7 @@ p2.__proto__ === p1.__proto__ // false
 p2.__proto__.__proto__ === p1.__proto__ // true
 ```
 
-上面代码中，ColorPoint继承了Point，导致前者原型的原型是后者的原型。因此，通过子类实例的__proto__.__proto__属性，可以修改父类实例的行为。
+上面代码中，ColorPoint继承了Point，导致前者原型的原型是后者的原型。因此，通过子类实例的\_\_proto\_\_.\_\_proto\_\_属性，可以修改父类实例的行为。
 
 ```js
 p2.__proto__.__proto__.printName = function () {
