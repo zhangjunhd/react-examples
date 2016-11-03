@@ -58,8 +58,8 @@
 - Set和Map数据结构
 - Iterator和for...of循环
 - [Generator函数][5]
-- Promise对象
-- 异步操作和Async函数
+- [Promise对象][6]
+- [异步操作和Async函数][7]
 - [Class][2]
   - Class基本语法
     - 概述
@@ -106,3 +106,5 @@
 [3]: object-extend.md
 [4]: function-extend.md
 [5]: generator-function.md
+[6]: promise-object.md
+[7]: async.md
