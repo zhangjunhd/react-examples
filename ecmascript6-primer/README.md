@@ -53,7 +53,42 @@
   - 对象的扩展运算符
   - Object.getOwnPropertyDescriptors()
 - [Symbol][8]
+  - 概述
+  - 作为属性名的Symbol
+  - 实例：消除魔术字符串
+  - 属性名的遍历
+  - Symbol.for()，Symbol.keyFor()
+  - 内置的Symbol值
+    - Symbol.hasInstance
+    - Symbol.isConcatSpreadable
+    - Symbol.species
+    - Symbol.match
+    - Symbol.replace
+    - Symbol.search
+    - Symbol.split
+    - Symbol.iterator
+    - Symbol.toPrimitive
+    - Symbol.toStringTag
+    - Symbol.unscopables
 - [Proxy和Reflect][9]
+  - Proxy概述
+  - Proxy实例的方法
+    - get()
+    - apply()
+    - has()
+    - construct()
+    - deleteProperty()
+    - defineProperty()
+    - enumerate()
+    - getOwnPropertyDescriptor()
+    - getPrototypeOf()
+    - isExtensible()
+    - ownKeys()
+    - preventExtensions()
+    - setPrototypeOf()
+    - Proxy.revocable()
+  - Reflect概述
+  - Reflect对象的方法
 - 二进制数组
 - Set和Map数据结构
 - [Iterator和for...of循环][14]

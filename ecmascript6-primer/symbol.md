@@ -1,4 +1,23 @@
 # Symbol
+## 目录
+- [概述](#概述)
+- [作为属性名的Symbol](#作为属性名的symbol)
+- [实例：消除魔术字符串](#实例消除魔术字符串)
+- [属性名的遍历](#属性名的遍历)
+- [Symbol.for()，Symbol.keyFor()](#symbolforsymbolkeyfor)
+- [内置的Symbol值](#内置的symbol值)
+  - [Symbol.hasInstance](#symbolhasinstance)
+  - [Symbol.isConcatSpreadable](#symbolisconcatspreadable)
+  - [Symbol.species](#symbolspecies)
+  - [Symbol.match](#symbolmatch)
+  - [Symbol.replace](#symbolreplace)
+  - [Symbol.search](#symbolsearch)
+  - [Symbol.split](#symbolsplit)
+  - [Symbol.iterator](#symboliterator)
+  - [Symbol.toPrimitive](#symboltoprimitive)
+  - [Symbol.toStringTag](#symboltostringtag)
+  - [Symbol.unscopables](#symbolunscopables)
+
 ## 概述
 ES5的对象属性名都是字符串，这容易造成属性名的冲突。比如，你使用了一个他人提供的对象，但又想为这个对象添加新的方法（mixin模式），新方法的名字就有可能与现有方法产生冲突。如果有一种机制，保证每个属性的名字都是独一无二的就好了，这样就从根本上防止属性名的冲突。这就是ES6引入Symbol的原因。
 
