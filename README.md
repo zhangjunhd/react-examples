@@ -44,6 +44,7 @@
 
 ## Web服务
 1. [Express][17]
+1. [在Nodejs中使用JSON WEB Tokens][19]
 
 ## GraphQL与Relay
 1. [Tutorial][18]
@@ -68,6 +69,7 @@
 [16]: http://blog.visioncan.com/2011/sass-scss-your-css/
 [17]: http://www.expressjs.com.cn/
 [18]: http://facebook.github.io/relay/docs/tutorial.html#content
+[19]: https://lcj.me/using-json-web-tokens-with-node-js/
 
 [31]: professional_javascript_for_web/
 [32]: relay-demo/relay-treasurehunt/
