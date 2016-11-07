@@ -174,6 +174,14 @@
     - new.target属性
     - Mixin模式的实现
 - [Decorator][10]
+  - 类的修饰
+  - 方法的修饰
+  - 为什么修饰器不能用于函数？
+  - core-decorators.js
+  - 使用修饰器实现自动发布事件
+  - Mixin
+  - Trait
+  - Babel转码器的支持
 - [Module][11]
 - [函数式编程][12]
 - [Mixin][13]

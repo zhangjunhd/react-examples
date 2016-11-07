@@ -22,6 +22,7 @@
 1. [React 设计思想][14]
 1. [React Router 使用教程][7]
 1. [React Router demo][34]
+1. [React AJAX Best Practices][20]
 
 ## MVC
 1. [Flux 架构][8]
@@ -70,6 +71,8 @@
 [17]: http://www.expressjs.com.cn/
 [18]: http://facebook.github.io/relay/docs/tutorial.html#content
 [19]: https://lcj.me/using-json-web-tokens-with-node-js/
+[20]: http://andrewhfarmer.com/react-ajax-best-practices/
+
 
 [31]: professional_javascript_for_web/
 [32]: relay-demo/relay-treasurehunt/
