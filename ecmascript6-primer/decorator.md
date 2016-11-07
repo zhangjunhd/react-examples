@@ -3,7 +3,7 @@
 - [类的修饰](#类的修饰)
 - [方法的修饰](#方法的修饰)
 - [为什么修饰器不能用于函数？](#为什么修饰器不能用于函数)
-- [core-decorators.js](#coredecoratorsjs)
+- [core-decorators.js](#core-decoratorsjs)
 - [使用修饰器实现自动发布事件](#使用修饰器实现自动发布事件)
 - [Mixin](#mixin)
 - [Trait](#trait)

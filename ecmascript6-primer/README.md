@@ -3,11 +3,11 @@
 
 [豆瓣链接](https://book.douban.com/subject/25966265/)
 
-- let和const命令
-- 变量的解构赋值
-- 字符串的扩展
-- 正则的扩展
-- 数组的扩展
+- [let和const命令][15]
+- [变量的解构赋值][16]
+- [字符串的扩展][17]
+- [正则的扩展][18]
+- [数组的扩展][19]
 - [函数的扩展][4]
     - 函数参数的默认值
       - 基本用法
@@ -92,6 +92,19 @@
 - 二进制数组
 - Set和Map数据结构
 - [Iterator和for...of循环][14]
+  - Iterator（遍历器）的概念
+  - 数据结构的默认Iterator接口
+  - 调用Iterator接口的场合
+  - 字符串的Iterator接口
+  - Iterator接口与Generator函数
+  - 遍历器对象的return()，throw()
+  - for...of循环
+  - 数组
+  - Set和Map结构
+  - 计算生成的数据结构
+  - 类似数组的对象
+  - 对象
+  - 与其他遍历语法的比较
 - [Generator函数][5]
   - 简介
     - 基本概念
@@ -183,8 +196,32 @@
   - Trait
   - Babel转码器的支持
 - [Module][11]
+  - 严格模式
+  - export命令
+  - import命令
+  - 模块的整体加载
+  - export default命令
+  - 模块的继承
+  - ES6模块加载的实质
+  - 循环加载
+  - CommonJS模块的加载原理
+  - CommonJS模块的循环加载
+  - ES6模块的循环加载
+  - 跨模块常量
+  - ES6模块的转码
+    - ES6 module transpiler
+    - SystemJS
 - [函数式编程][12]
+  - 函数合成
+  - 参数倒置
+  - 执行边界
+  - 队列操作
+  - 合并操作
+  - 配对操作
+  - 参考链接
 - [Mixin][13]
+  - 含义
+  - Trait
 - [编程风格][1]
   - 块级作用域
     - let取代var
@@ -213,3 +250,8 @@
 [12]: functional-programming.md
 [13]: mixin.md
 [14]: iterator.md
+[15]: let-const.md
+[16]: variable.md
+[17]: string-extend.md
+[18]: regex-extend.md
+[19]: array-extend.md
