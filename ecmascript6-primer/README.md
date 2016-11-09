@@ -4,10 +4,60 @@
 [豆瓣链接](https://book.douban.com/subject/25966265/)
 
 - [let和const命令][15]
+  -let命令
+    - 基本用法
+    - 不存在变量提升
+    - 暂时性死区
+    - 不允许重复声明
+  - 块级作用域
+    - 为什么需要块级作用域？
+    - ES6的块级作用域
+  - const命令
+  - 全局对象的属性
 - [变量的解构赋值][16]
+  - 数组的解构赋值
+    - 基本用法
+    - 默认值
+  - 对象的解构赋值
+  - 字符串的解构赋值
+  - 数值和布尔值的解构赋值
+  - 函数参数的解构赋值
+  - 圆括号问题
+    - 不能使用圆括号的情况
+    - 可以使用圆括号的情况
+  - 用途
 - [字符串的扩展][17]
+  - 字符的Unicode表示法
+  - codePointAt()
+  - String.fromCodePoint()
+  - 字符串的遍历器接口
+  - at()
+  - normalize()
+  - includes(), startsWith(), endsWith()
+  - repeat()
+  - padStart()，padEnd()
+  - 模板字符串
+  - 实例：模板编译
+  - 标签模板
+  - String.raw()
 - [正则的扩展][18]
+  - RegExp构造函数
+  - 字符串的正则方法
+  - u修饰符
+  - y修饰符
+  - sticky属性
+  - flags属性
+  - RegExp.escape()
+  - 后行断言
 - [数组的扩展][19]
+  - Array.from()
+  - Array.of()
+  - 数组实例的copyWithin()
+  - 数组实例的find()和findIndex()
+  - 数组实例的fill()
+  - 数组实例的entries()，keys()和values()
+  - 数组实例的includes()
+  - 数组的空位
 - [函数的扩展][4]
     - 函数参数的默认值
       - 基本用法
@@ -89,8 +139,48 @@
     - Proxy.revocable()
   - Reflect概述
   - Reflect对象的方法
-- 二进制数组
-- Set和Map数据结构
+- [二进制数组][20]
+  - ArrayBuffer对象
+    - 概述
+    - ArrayBuffer.prototype.byteLength
+    - ArrayBuffer.prototype.slice()
+    - ArrayBuffer.isView()
+  - TypedArray视图
+    - 概述
+    - 构造函数
+    - 数组方法
+    - 字节序
+    - BYTES_PER_ELEMENT属性
+    - ArrayBuffer与字符串的互相转换
+    - 溢出
+    - TypedArray.prototype.buffer
+    - TypedArray.prototype.byteLength，TypedArray.prototype.byteOffset
+    - TypedArray.prototype.length
+    - TypedArray.prototype.set()
+    - TypedArray.prototype.subarray()
+    - TypedArray.prototype.slice()
+    - TypedArray.of()
+    - TypedArray.from()
+  - 复合视图
+  - DataView视图
+  - 二进制数组的应用
+    - AJAX
+    - Canvas
+    - WebSocket
+    - Fetch API
+    - File API
+- [Set和Map数据结构][21]
+  - Set
+    - 基本用法
+    - Set实例的属性和方法
+    - 遍历操作
+    - WeakSet
+  - Map
+    - Map结构的目的和基本用法
+    - 实例的属性和操作方法
+    - 遍历方法
+    - 与其他数据结构的互相转换
+    - WeakMap
 - [Iterator和for...of循环][14]
   - Iterator（遍历器）的概念
   - 数据结构的默认Iterator接口
@@ -255,3 +345,5 @@
 [17]: string-extend.md
 [18]: regex-extend.md
 [19]: array-extend.md
+[20]: binary-array.md
+[21]: set-and-map.md
