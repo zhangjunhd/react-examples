@@ -4,7 +4,7 @@
 [豆瓣链接](https://book.douban.com/subject/25966265/)
 
 - [let和const命令][15]
-  -let命令
+  - let命令
     - 基本用法
     - 不存在变量提升
     - 暂时性死区
