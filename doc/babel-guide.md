@@ -1,4 +1,4 @@
-##Babel 入门教程
+## Babel 入门教程
 [Babel][1]是一个广泛使用的转码器，可以将ES6代码转为ES5代码，从而在现有环境执行。
 
 ![babel](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016012501.png)
@@ -15,7 +15,7 @@
 
 上面的原始代码用了箭头函数，这个特性还没有得到广泛支持，Babel将其转为普通函数，就能在现有的JavaScript环境执行了。
 
-###一、配置文件.babelrc
+### 一、配置文件.babelrc
 Babel的配置文件是.babelrc，存放在项目的根目录下。使用Babel的第一步，就是配置这个文件。
 
 该文件用来设置转码规则和插件，基本格式如下。
@@ -52,7 +52,7 @@ Babel的配置文件是.babelrc，存放在项目的根目录下。使用Babel�
 
 注意，以下所有Babel工具和模块的使用，都必须先写好.babelrc。
 
-###二、命令行转码babel-cli
+### 二、命令行转码babel-cli
 Babel提供babel-cli工具，用于命令行转码。
 
 它的安装命令如下。
@@ -104,7 +104,7 @@ Babel提供babel-cli工具，用于命令行转码。
 
     $ npm run build
 
-###三、babel-node
+### 三、babel-node
 babel-cli工具自带一个babel-node命令，提供一个支持ES6的REPL环境。它支持Node的REPL环境的所有功能，而且可以直接运行ES6代码。
 
 它不用单独安装，而是随babel-cli一起安装。然后，执行babel-node就进入PEPL环境。
@@ -133,7 +133,7 @@ babel-node也可以安装在项目中。
 
 上面代码中，使用babel-node替代node，这样script.js本身就不用做任何转码处理。
 
-###四、babel-register
+### 四、babel-register
 babel-register模块改写require命令，为它加上一个钩子。此后，每当使用require加载.js、.jsx、.es和.es6后缀名的文件，就会先用Babel进行转码。
 
     $ npm install --save-dev babel-register
@@ -147,7 +147,7 @@ babel-register模块改写require命令，为它加上一个钩子。此后，�
 
 需要注意的是，babel-register只会对require命令加载的文件转码，而不会对当前文件转码。另外，由于它是实时转码，所以只适合在开发环境使用。
 
-###五、babel-core
+### 五、babel-core
 如果某些代码需要调用Babel的API进行转码，就要使用babel-core模块。
 
 安装命令如下。
@@ -189,7 +189,7 @@ babel-register模块改写require命令，为它加上一个钩子。此后，�
 
 上面代码中，transform方法的第一个参数是一个字符串，表示需要转换的ES6代码，第二个参数是转换的配置对象。
 
-###六、babel-polyfill
+### 六、babel-polyfill
 Babel默认只转换新的JavaScript句法（syntax），而不转换新的API，比如Iterator、Generator、Set、Maps、Proxy、Reflect、Symbol、Promise等全局对象，以及一些定义在全局对象上的方法（比如Object.assign）都不会转码。
 
 举例来说，ES6在Array对象上新增了Array.from方法。Babel就不会转码这个方法。如果想让这个方法运行，必须使用babel-polyfill，为当前环境提供一个垫片。
@@ -206,7 +206,7 @@ Babel默认只转换新的JavaScript句法（syntax），而不转换新的API�
 
 Babel默认不转码的API非常多，详细清单可以查看babel-plugin-transform-runtime模块的[definitions.js][3]文件。
 
-###七、浏览器环境
+### 七、浏览器环境
 Babel也可以用于浏览器环境。但是，从Babel 6.0开始，不再直接提供浏览器版本，而是要用构建工具构建出来。如果你没有或不想使用构建工具，可以通过安装5.x版本的babel-core模块获取。
 
     $ npm install babel-core@5
@@ -250,10 +250,10 @@ Babel也可以用于浏览器环境。但是，从Babel 6.0开始，不再直接
       }
     }
 
-###八、在线转换
+### 八、在线转换
 Babel提供一个[REPL在线编译器][4]，可以在线将ES6代码转为ES5代码。转换后的代码，可以直接作为ES5代码插入网页运行。
 
-###九、与其他工具的配合
+### 九、与其他工具的配合
 许多工具需要Babel进行前置转码，这里举两个例子：ESLint和Mocha。
 
 [ESLint][5]用于静态检查代码的语法和风格，安装命令如下。
