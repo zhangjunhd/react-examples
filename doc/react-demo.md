@@ -3,7 +3,7 @@
 
 ![react](http://image.beekka.com/blog/2015/bg2015033101.png)
 
-###一、HTML 模板
+### 一、HTML 模板
 ```html
 <!DOCTYPE html>
 <html>
@@ -28,14 +28,14 @@
 
 其次，上面代码一共用了三个库： react.js 、react-dom.js 和 Browser.js ，它们必须首先加载。其中，react.js 是 React 的核心库，react-dom.js 是提供与 DOM 相关的功能，Browser.js 的作用是将 JSX 语法转为 JavaScript 语法，这一步很消耗时间，实际上线的时候，应该将它放到服务器完成。
 
-###二、ReactDOM.render()
+### 二、ReactDOM.render()
 ReactDOM.render 是 React 的最基本方法，用于将模板转为 HTML 语言，并插入指定的 DOM 节点。
 
 上面代码[demo01][1]将一个 h1 标题，插入 example 节点。运行结果：
 
     Hello, world!
 
-###三、JSX 语法
+### 三、JSX 语法
 ```javascript
 <script type="text/babel">
     var names = ['Alice', 'Emily', 'Kate'];
@@ -79,7 +79,7 @@ JSX 允许直接在模板插入 JavaScript 变量。如果这个变量是一个�
     Hello world!
     React is awesome
 
-###四、组件
+### 四、组件
 React 允许将代码封装成组件（component），然后像插入普通 HTML 标签一样，在网页中插入这个组件。React.createClass 方法就用于生成一个组件类（查看 [demo04][4]）。
 
 ```javascript
@@ -119,7 +119,7 @@ var HelloMessage = React.createClass({
 
 添加组件属性，有一个地方需要注意，就是 class 属性需要写成 className ，for 属性需要写成 htmlFor ，这是因为 class 和 for 是 JavaScript 的保留字。
 
-###五、this.props.children
+### 五、this.props.children
 this.props 对象的属性与组件的属性一一对应，但是有一个例外，就是 this.props.children 属性。它表示组件的所有子节点（查看 [demo05][5]）。
 
 ```javascript
@@ -157,7 +157,7 @@ this.props 对象的属性与组件的属性一一对应，但是有一个例外
 
 React 提供一个工具方法 React.Children 来处理 this.props.children 。我们可以用 React.Children.map 来遍历子节点，而不用担心 this.props.children 的数据类型是 undefined 还是 object。
 
-###六、PropTypes
+### 六、PropTypes
 组件的属性可以接受任意值，字符串、对象、函数等等都可以。有时，我们需要一种机制，验证别人使用组件时，提供的参数是否符合要求。
 
 组件类的PropTypes属性，就是用来验证组件实例的属性是否符合要求（查看 [demo06][6]）。
@@ -212,7 +212,7 @@ ReactDOM.render(
 
 上面代码会输出"Hello World"。
 
-###七、获取真实的DOM节点
+### 七、获取真实的DOM节点
 组件并不是真实的 DOM 节点，而是存在于内存之中的一种数据结构，叫做虚拟 DOM （virtual DOM）。只有当它插入文档以后，才会变成真实的 DOM 。根据 React 的设计，所有的 DOM 变动，都先在虚拟 DOM 上发生，然后再将实际发生变动的部分，反映在真实 DOM上，这种算法叫做 [DOM diff][15] ，它可以极大提高网页的性能表现。
 
 但是，有时需要从组件获取真实 DOM 的节点，这时就要用到 ref 属性（查看 [demo07][7] ）。
@@ -244,7 +244,7 @@ ReactDOM.render(
 
 React 组件支持很多事件，除了 Click 事件以外，还有 KeyDown 、Copy、Scroll 等，完整的事件清单请查看[官方文档][16]。
 
-###八、this.state
+### 八、this.state
 组件免不了要与用户互动，React 的一大创新，就是将组件看成是一个状态机，一开始有一个初始状态，然后用户互动，导致状态变化，从而触发重新渲染 UI （查看 [demo08][8] ）。
 
 ```javascript
@@ -275,7 +275,7 @@ ReactDOM.render(
 
 由于 this.props 和 this.state 都用于描述组件的特性，可能会产生混淆。一个简单的区分方法是，this.props 表示那些一旦定义，就不再改变的特性，而 this.state 是会随着用户互动而产生变化的特性。
 
-###九、表单
+### 九、表单
 用户在表单填入的内容，属于用户跟组件的互动，所以不能用 this.props 读取（查看 [demo9][9] ）。
 
 ```javascript
@@ -302,7 +302,7 @@ ReactDOM.render(<Input/>, document.body);
 
 上面代码中，文本输入框的值，不能用 this.props.value 读取，而要定义一个 onChange 事件的回调函数，通过 event.target.value 读取用户输入的值。textarea 元素、select元素、radio元素都属于这种情况，更多介绍请参考[官方文档][17]。
 
-###十、组件的生命周期
+### 十、组件的生命周期
 组件的[生命周期][18]分成三个状态：
 
 - Mounting：已插入真实 DOM
@@ -372,7 +372,7 @@ ReactDOM.render(
 
 这是因为 React 组件样式是一个对象，所以第一重大括号表示这是 JavaScript 语法，第二重大括号表示样式对象。
 
-###十一、Ajax
+### 十一、Ajax
 组件的数据来源，通常是通过 Ajax 请求从服务器获取，可以使用 componentDidMount 方法设置 Ajax 请求，等到请求成功，再用 this.setState 方法重新渲染 UI （查看 [demo11][11] ）。
 
 ```javascript
